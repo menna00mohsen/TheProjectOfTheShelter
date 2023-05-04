@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Happy Tails' Shelter</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h3> Happy Tails' Shelter </h3>
+              <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About</a></li>
+             </ul>
+             <hr>
+             <button> <a href="https://goo.gl/maps/YkohJ6AbtjAt4F6p8"> Visit Us  </a></button>
+        </nav>
+        <div class="content">
+            <img src="1.jpg" class="connect">
+        </div>
+        <div class="text">
+            <h1>Instead of buying a pet, adopt one</h1>
+            <h3>from our lovely collection </h3>
+            <p> Welcome to our shelter, where we're committed to rescuing and rehoming pets in need. We believe that every animal deserves a loving home, and we're here to make that happen. All of our pets have been carefully evaluated, vaccinated, and spayed or neutered, so you can be sure that your new companion is healthy and ready to join your family. When you adopt a pet from us, you're not just adding a new member to your household, you're saving a life and giving an animal in need a second chance. Our staff and volunteers are dedicated to providing the best possible care for our animals, and we're here to support you every step of the way. Whether you're looking for a loyal dog, a playful cat, or a cuddly bunny, we have a wide variety of pets available for adoption. Browse our website, visit our shelter, and let us help you find your new best friend!
+            </p>
+        </div>
+        <div class="social">
+            <a href="https://twitter.com/"> Twitter </a>
+            <a href="https://www.instagram.com/"> Instagram </a>
+            <a href="https://www.facebook.com/"> Facebook </a>
+        </div>
+        <div class="pets">
+            <img src="1.jpg" onclick="active('1.jpg')">
+            <img src="2.jpg" onclick="active('2.jpg')">
+            <img src="3.jpg" onclick="active('3.jpg')">
+            <img src="4.jpg" onclick="active('4.jpg')">
+            <img src="5.jpg" onclick="active('5.jpg')">
+            <img src="6.jpg" onclick="active('6.jpg')">
+            <img src="7.jpg" onclick="active('7.jpg')">
+            <img src="8.jpg" onclick="active('8.jpg')">
+            <img src="9.jpg" onclick="active('9.jpg')">
+            </div>
+    </div>
+    <script>
+        function active(pet){
+            document.querySelector('.connect').src=(pet);
+        }
+    </script>
+  
+</body>
+</html>
